@@ -1,0 +1,12 @@
+.autocomplete-suggestion {
+  position: absolute;
+  background: rgba(240, 240, 240, 0.9);
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 5px;
+  z-index: 9999;
+  pointer-events: none; /* Prevents interaction issues */
+  font-family: inherit;
+}
